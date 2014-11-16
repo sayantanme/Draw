@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 'android-L'
+    compileSdkVersion 19 //'android-L'
     buildToolsVersion "20.0.0"
 
     defaultConfig {
         applicationId "com.example.sayantanchakraborty.draw"
         minSdkVersion 19
-        targetSdkVersion 'L'
+        targetSdkVersion  20 //'L'
         versionCode 1
         versionName "1.0"
     }
@@ -21,4 +21,5 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+
 }

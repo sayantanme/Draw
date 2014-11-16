@@ -26,7 +26,6 @@ public class DrawActivity extends Activity {
     private float smallBrush,mediumBrush,largeBrush;
     String mFileName;
     EditText editText;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
