@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DrawActivity" >
+    <item android:id="@+id/NewFile"
+        android:title="@string/start_new"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/newfile"/>
+    <item android:id="@+id/Brush"
+        android:title="@string/brush"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/brush"/>
+    <item android:id="@+id/Eraser"
+        android:title="@string/erase"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/eraser_icon"/>
+    <item android:id="@+id/Save"
+        android:title="@string/save"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/save"/>
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>
